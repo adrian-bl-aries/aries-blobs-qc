@@ -8,7 +8,7 @@ echo "PRODUCT_COPY_FILES += \\"
   for workdir in adreno/a3xx msm8974 ; do
     XB="$SB/$workdir"
     cd $workdir
-    find * -type f | sort | awk '{print "    '$XB'/" $1 ":" $1 " \\" }'
+    find * -type f | sort | grep -v libta.so | grep -v Android.mk | awk '{print "    '$XB'/" $1 ":" $1 " \\" }'
     cd - > /dev/null
   done
 )

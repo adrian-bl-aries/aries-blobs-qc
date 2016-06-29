@@ -192,7 +192,6 @@ PRODUCT_COPY_FILES += \
     vendor/qcom/prebuilt/proprietary/msm8974/system/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/qcom/prebuilt/proprietary/msm8974/system/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/qcom/prebuilt/proprietary/msm8974/system/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
-    vendor/qcom/prebuilt/proprietary/msm8974/system/vendor/lib/libta.so:system/vendor/lib/libta.so \
     vendor/qcom/prebuilt/proprietary/msm8974/system/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/qcom/prebuilt/proprietary/msm8974/system/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/qcom/prebuilt/proprietary/msm8974/system/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
